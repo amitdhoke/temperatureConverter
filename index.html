@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Temperature Coverter</title>
+</head>
+<body>
+    <header>
+        <h2><b>Convert Celsius to Fahrenheit</b></h2>
+       
+    </header>
+
+    <section>
+        <div class="container container-main">
+            
+            <form  id="myForm" >
+                <label for="Celsius" class="label-01" ><b>Temperature in Celsius:</b></label>
+                
+                <input  required type="text" id="Celsius" name="Celsius" class="input01" placeholder="Enter a value"> 
+                
+                <br><br>
+                <div class="btn-div">
+                    <button type="submit" class="btn-converter">Convert</button>
+                <button type="button" class="btn-converter btn-clear">Clear</button>
+                </div>
+                <br><br>
+                <div class="div-result">
+                 <h3><b>Result:</b></h2> 
+                    <div class="result">
+                        <p class=" fResult" id="fResult"></p>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

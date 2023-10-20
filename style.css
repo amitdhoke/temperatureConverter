@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    letter-spacing: .4px;
+
+}
+
+:root{
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-light: #AED2FF;
+    --color-dark-varient: #E4F1FF;
+
+    --transition: .4s ease;
+    
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Inconsolata', monospace;
+/* font-family: 'Poppins', sans-serif; */
+   font-style: normal;
+   font-weight: 100;
+   color: #196938;
+}
+
+body{
+    background-color: #87CBB9;
+}
+
+.container-main{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #569DAA;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+
+    margin: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 100px;
+
+}
+
+label{
+    font-family: 'Inconsolata', monospace;
+    color: #B9EDDD;
+    font-weight: 400;
+    font-size: 150%;
+}
+.input01{
+    margin-top: 20px;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.btn-div{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn-converter{
+    display: inline-block;
+    width: fit-content;
+    padding: 0.8rem;
+    width: 5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: var(--color-black);
+    border: 1px solid var(--color-dark-varient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    transition: var(--transition);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btn-converter:hover{
+    color: #577D86;
+    background-color: #B9EDDD;
+    box-shadow:#000000;
+}
+
+h3{
+    /* margin-right: 210px; */
+    font-family: 'Inconsolata', monospace;
+    color: #B9EDDD;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.div-result{
+    display: inline-block;
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 77px;
+    justify-content: space-around;
+
+
+   
+}
+.result{
+    background-color: #fff;
+    margin-right: 50px;
+    padding-right:  25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    width: auto;
+    height: 25px;
+    border-radius: 10px;
+    
+    /* padding-right: 50px; */
+}
